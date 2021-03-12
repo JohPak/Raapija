@@ -1,0 +1,71 @@
+body {
+    background-color: #3f3f3f;
+    padding-left: 16px;
+}
+.taulukko {
+    color: beige;
+    font-family: helvetica;
+}
+.kuva {
+    height: 130px;
+}
+.tietodiv {
+    /* padding-left: 10px; */
+    border-top: 2px solid #62625e;
+    padding: 5px;
+}
+.kuvadiv {
+    float: left;
+    padding-right: 18px;
+}
+:any-link {
+    color: #86867f;
+}
+.url {
+    font-size: 0.8em;
+    padding-bottom: 8px;
+    display: inline-block;
+    padding-top: 5px;
+}
+.palkki {
+    width: 100px;
+    display: inline-block;
+    background-color: #62625e;
+    padding-right: 6px;
+    margin-right: 6px;
+    text-align: right;
+}
+form {
+    padding-bottom: 20px;
+}
+.tuotenimi {
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+input, button {
+    border-width: 2px;
+    border-color: #cccccc;
+    border-style: solid;
+    font-size: 20px;
+    border-radius: 8px;
+    padding: 4px;
+}
+button {
+    width: 100px;
+}
+.rnimi {
+    font-size:0.9em;
+    color: #bdbdbd;
+    padding-left: 15px;
+}
+.otsikko {
+    font-size: 2.5em;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: #ec6707;
+    display: inline-block;
+    padding-bottom: 10px;
+}
+.hinta {
+    color: #ec6707;
+}
