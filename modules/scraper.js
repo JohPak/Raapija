@@ -103,7 +103,6 @@ function getProducts(searchword) {
     }
 
 
-
     })
     .catch(function(err) {
         //handle error
