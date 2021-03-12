@@ -85,6 +85,7 @@ function getProducts(searchword) {
                 value = value.replace(/%20/g, ' ');
                 value = value.replace(/%2C/g, ',');
                 value = value.replace(/;;/g, ', ');
+                value = value.replace(/--/g, ', ');
                 value = value.replace(/%D6/g, 'Ö');
                 
                 return value;
