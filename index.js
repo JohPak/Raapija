@@ -82,7 +82,11 @@ app.get('/', (req, res) => {
     })
 })
 
-app.listen(port, () => {
+// app.listen(process.env.PORT || 8080) => {
+  
+
+app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
+  console.log(process.env.PORT, "Herokun antama portti");
 })
 
