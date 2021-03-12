@@ -102,7 +102,6 @@ function getProducts(searchword) {
         resolve(tuotteet);
     }
 
-
     })
     .catch(function(err) {
         //handle error
