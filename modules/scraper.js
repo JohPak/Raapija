@@ -20,7 +20,8 @@ function getProducts(searchword) {
             
     
     puppeteer
-    .launch()
+    // .launch()
+    .launch({ args: ['--no-sandbox'] }) //herokua varten
     .then(function(browser) {
         return browser.newPage();
     })
