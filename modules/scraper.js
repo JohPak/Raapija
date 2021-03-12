@@ -107,7 +107,7 @@ function getProducts(searchword) {
     })
     .catch(function(err) {
         //handle error
-        console.error(err, "VIRHEILMOITUS scraper.js:sta");
+        console.error(err, "VIRHEILMOITUS scraper.js:sta!");
     });
 
 
