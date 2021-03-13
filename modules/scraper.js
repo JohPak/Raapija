@@ -69,7 +69,7 @@ function getProducts(searchword) {
                     try {
                         return decodeURI(value); // jos ei onnistunut, koitetaan toista vaihtoehtoa
                     } catch (error) {
-                        // console.log(error);
+                        // console.log(error); // ...
                         return umlaut(value); // jos kumpikaan ei onnistu, palautetaan kategorianimi sellaisenaan
                     }
                 }
